@@ -2,7 +2,7 @@
 
 This project is a quick introduction to the use of [Descartes](https://github.com/STAMP-project/pitest-descartes) and  the type of testing issues that can be discovered with the help of this tool.
 
-The project consists of a single class [VersionedList](src/main/java/eu/stamp_project/VersionedList.java) and a single test class ([VersionedListTest](src/test/java/eu/stamp_project/VersionedListTest.java)) with two test cases.
+The project consists of a single class [VersionedList](src/main/java/eu/stamp_project/examples/VersionedList.java) and a single test class ([VersionedListTest](src/test/java/eu/stamp_project/examples/VersionedListTest.java)) with two test cases.
 
 
 ## Pre-requisites
@@ -11,7 +11,7 @@ The project requires Java, Maven and an Internet connection to import all depend
 
 ## How to use it?
 
-[PitMP](https://github.com/STAMP-project/pitmp-maven-plugin) and [Descartes](https://github.com/STAMP-project/pitest-descartes) are already configured in the [pom.xml](pom.xml#L28) file as follows:
+[PitMP](https://github.com/STAMP-project/pitmp-maven-plugin) and [Descartes](https://github.com/STAMP-project/pitest-descartes) are already configured in the [pom.xml](pom.xml#L28-L41) file as follows:
 
 ```xml
 <plugin>
