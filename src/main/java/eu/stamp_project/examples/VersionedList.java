@@ -16,6 +16,7 @@ public class VersionedList<T> {
 
     public VersionedList(T... elements) {
         this.elements = Arrays.copyOf(elements, Math.max(elements.length, DEFAULT_CAPACITY));
+        size = elements.length;
     }
 
     public T get(int index) { 
